@@ -7,11 +7,14 @@
 TheftFuzzer is a tool that fuzzes Cross-Origin Resource Sharing implementations for common misconfigurations.
 
 ## Usage:
+`python theftfuzzer.py -d 'http://example.com/api/cookie'`
+
+#### Help:
 `python theftfuzzer.py -h`
 
 
 ```
-~$ python theftfuzzer.py -h                                ✔  1882  14:17:40
+~$ python theftfuzzer.py -h                               
 usage: theftfuzzer.py [-h] -d DOMAIN [-c COOKIE]
 
 Cross Origin Resource Sharing Fuzzer by Corben Leo
