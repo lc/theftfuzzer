@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import requests,argparse,string,sys,itertools,os
 from http.cookies import SimpleCookie
 from urllib.parse import urlsplit
