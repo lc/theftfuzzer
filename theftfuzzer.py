@@ -45,6 +45,7 @@ else:
 for r in itertools.product(domains,bypass):
     attempt = r[0]+r[1]+".example.com"
     permutations.append(attempt)
+permutations.append('null')
 
 for perm in permutations:
     sent = "Sending -> Origin: "+ perm
